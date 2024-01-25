@@ -1,0 +1,159 @@
+*{
+
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    margin: 0;
+    padding: 0;
+    height: 5vh;
+    width: 100%;
+    background-color: antiquewhite;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    z-index: 100;
+    position: fixed;
+}
+header:after{
+
+    background-color: yellow;
+}
+header, img{
+        padding: 25px;
+
+}
+nav li{
+    display: inline-block;
+    padding: 0px 20px;
+}
+nav li a{
+    position: relative;
+    text-decoration: none;
+    color: black;
+
+    letter-spacing: 0.25px;
+
+}
+
+nav ul li a:hover{
+    color: orange;
+    text-decoration: underline;
+    width: 100%;
+    cursor: pointer;
+}
+.container{
+text-align: center;
+color: #333333;
+font-family: "Oswald", Sans-serif;
+font-weight: 400;
+line-height: 30px;
+letter-spacing: 1px;
+}
+.par{
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 50px;
+    text-align: center;
+    color: #333333;
+    font-family: "oswald";
+    letter-spacing: 1px;
+}
+.cont{
+    display: inline-flex;
+    justify-content: space-between;
+    padding: 40px;
+    margin: 0 10px;
+
+}
+
+#q1{
+    width: 50%;
+}
+#q2{
+    width: 50%;
+}
+.who{
+ display: inline-flex;
+ padding: 20px;
+}
+
+#a1{
+    text-align: center;
+    line-height: 50px;
+    letter-spacing: 1px;
+}
+#a2{
+    text-align: center;
+  
+}
+.project{
+    text-align: center;
+    color: #333333;
+    font-family: "Oswald", Sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 48px;
+    letter-spacing: 1px;
+}
+footer{
+    height: 500px;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.786);
+    color: orange;
+
+}
+.sub{
+    margin-top: 20px;
+    padding-top: 20px;
+    color: orange;
+    text-align: center;
+}
+.sub1{
+    display: flex;
+    justify-content: space-between;
+    position:relative;
+    margin: 100px;
+    letter-spacing: 1px;
+    line-height: 52px;
+}
+.sub1 p1{
+    color: white;
+    list-style: none;
+    line-height: 40px;
+}
+footer1{
+    background-color: rgba(0, 0, 0, 0.786);
+    color: white;
+    width: 100%;
+    display: block;
+}
+.faq{
+    text-align: center;
+    letter-spacing: 2px;
+    line-height: 150px;
+}
+.ques{
+}
+p2{
+    font-size: 25px;
+    display: block;
+    height: 40px;
+    background-color: rgb(220, 150, 19);
+    margin-left:  50px ;
+    margin-right: 50px;
+    padding-top: 10px;
+    letter-spacing: 2px;
+
+}
+p3{
+    font-size: 20px;
+    display: block;
+    margin-left:  50px ;
+    margin-right: 50px;
+    padding-top: 10px;
+    line-height: 50px;
+    letter-spacing: 2px;
+
+}
